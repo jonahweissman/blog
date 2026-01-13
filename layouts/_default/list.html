@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="posts">
+    {{ range .Pages }}
+    <article class="post-summary">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{ if .Date }}
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        {{ end }}
+        {{ if .Summary }}
+        <p>{{ .Summary }}</p>
+        {{ end }}
+    </article>
+    {{ end }}
+</div>
+{{ end }}

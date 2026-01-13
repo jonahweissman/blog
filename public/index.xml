@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Learning Algorithms Create Monopoly Prices in Competitive Markets</title>
+      <link>http://localhost:1313/low-regret-pricing/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/low-regret-pricing/</guid>
+      <description>&lt;p&gt;Imagine two coffee shops competing on the same street. Neither knows the other&amp;rsquo;s pricing strategy, costs, or decision-making process. Each simply observes market demand and adjusts their own prices to maximize revenue. Over time, something surprising happens: &lt;strong&gt;they converge to the same high price—close to what a monopolist would charge—without ever communicating or colluding.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This isn&amp;rsquo;t a hypothetical. When firms use low-regret learning algorithms to set prices, they can tacitly coordinate on monopoly-like outcomes, earning profits far above the competitive level. This phenomenon—algorithmic collusion—is the subject of growing concern among economists and regulators.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
